@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,23 +8,47 @@
     <link rel="shortcut icon" href="imagenes/logo-min.JPG" type="image/x-icon">
     <link rel="stylesheet" href="css/lapota.css">
     <!--Bootstrap CSS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>La Pota</title>
 </head>
+
 <body>
     <div class="grid-container">
-    <header class="header">
-        <nav>
-            <ul>
-                <li><img width="160" src="imagenes/logo-min.JPG" alt="" class="logo"></li>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="paginas/productos.html">Productos</a></li>
-                <li><a href="paginas/Quienes-somos.html">Quienes somos</a></li>
-                <li><a href="paginas/contacto.html">Contacto</a></li>
-                <li><a href="paginas/puntos-de-venta.html">Puntos de venta</a></li>
-            </ul> 
-        </nav>
-    </header>
+        <header class="header">
+            <nav class="navbar navbar-expand-lg navbar-light color-nav" >
+                <div class="container-fluid">
+                    <div class="container">
+                        <a class="navbar-brand" href="#">
+                            <img src="imagenes/logo-min.JPG" alt="" width="140" >
+                        </a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active mx-4" aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item mx-4">
+                                <a class="nav-link" href="paginas/productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item mx-4">
+                                <a class="nav-link" href="paginas/Quienes-somos.html">Quienes somos</a>
+                                <li class="nav-item mx-4">
+                                    <a class="nav-link" href="paginas/contacto.html">Contacto</a>
+                                </li>
+                            </li>
+                            <li class="nav-item mx-4">
+                                <a class="nav-link" href="paginas/puntos-de-venta.html">Puntos de venta</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
     </div>
     <main class="main">
         <section class="principal-section">
@@ -31,28 +56,57 @@
                 <h1>Catálogo de La Pota</h1>
                 <h2>Llegó la hora de que conozcas nuestros productos</h2>
             </div>
-        <div id="carouselWithControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item">
-                    <img src="imagenes/arañaroja-min.jpg" width="300" class="d-block w-100" alt="Slide 1">
+            <section>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="imagenes/melcmac-min.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/jpnyc-min.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/jabonp-min.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-item">
+                                <img src="imagenes/melcmac-min.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagenes/neempuro-min.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagenes/perlita-min.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagenes/propeleo-min.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagenes/tierradd-min.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagenes/vermi-min.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div class="carousel-item active">
-                    <img src="imagenes/jabonp-min.jpg" width="300" class="d-block w-100" alt="Slide 2">
-                </div>
-                <div class="carousel-item">
-                    <img src="imagenes/jpnyc-min.jpg" width="300" class="d-block w-100" alt="Slide 3">
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselWithControls" role="button" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselWithControls" role="button" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </a>
-        </div>
-
+            </section>
         </section>
         <section>
             <h2 class="h2">¿Sabías que nuestros pruductos son 100% ecológicos?</h2>
@@ -62,14 +116,19 @@
         <div>
             <h3>¿Querés vender nuestros productos?</h3>
             <a href="https://www.instagram.com/lapota.ok"><img src="imagenes/instagram.png" alt=""></a>
-            <a href=""><img src="imagenes/email.png" alt=""></a> 
-        </div> 
+            <a href=""><img src="imagenes/email.png" alt=""></a>
+        </div>
         <div class="mapa">
             <h2>Hey conoce nuestros puntos de venta!</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.096501300841!2d-58.4598854!3d-34.5764247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5a7944cbe11%3A0x6fbf83eb83b63f94!2sEl%20Alquimista%20Growshop%20Colegiales!5e0!3m2!1ses!2sar!4v1636234613639!5m2!1ses!2sar" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.096501300841!2d-58.4598854!3d-34.5764247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5a7944cbe11%3A0x6fbf83eb83b63f94!2sEl%20Alquimista%20Growshop%20Colegiales!5e0!3m2!1ses!2sar!4v1636234613639!5m2!1ses!2sar"
+                width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

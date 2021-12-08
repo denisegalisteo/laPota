@@ -21,6 +21,7 @@ body{
 .header{
     grid-area: header;
     flex-wrap: wrap;
+    
 }
 .main{
     grid-area: main;
@@ -31,54 +32,19 @@ body{
     flex-wrap: wrap;
 }
 /* NAV Y MENU*/ 
-.header{
-    background-image: url(../imagenes/propeleo-min.jpg);
-}
-.header nav{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
 
-.header nav ul{
-    /* float: right; */
-    margin-right: 10px;
-    display: flex;
-    flex-wrap: wrap;
-}
-.header nav ul li{
-    /* display: inline-block; */
-    align-self: center;
-    line-height: 80px;
-    margin: 0 5px;
-}
-.header nav ul li a{
-    color: white;
-    font-size: 18px;
-    text-transform: uppercase;
-    padding: 5px 10px;
-    border-radius: 3px;
-}
 .header ul li a:hover{
     color: white;
     transform: scale(1.1);
-    background: khaki;
-    border: 1px solid yellow; 
-
+    background: rgb(255, 246, 163);
+    border: 1px solid yellow;
 }
-.logo{
-    padding: 20px;
-} 
-@media (max-width: 900px) {
-    nav ul{
-        flex-direction: column;
-    }
-} 
-@media (max-width: 600px) {
-    nav ul{
-        flex-direction: column;
-    }
-} 
+.header ul li{
+    font-size: 1.3em;
+}
+.color-nav{
+background-image:url(../imagenes/propeleo-min.jpg);
+}
 /*SECTION*/
 
 .titulo-uno{
